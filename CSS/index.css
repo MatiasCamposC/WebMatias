@@ -24,9 +24,9 @@
 }
 
 #perfil-imagen img {
-    margin-left: 100px;
-    max-width: 70%;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left: 50px;
+    max-width: 100%;
     height: auto;
     border: 6px solid #08554c;
 
