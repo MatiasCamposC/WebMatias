@@ -38,7 +38,10 @@
     margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 100px;
+    max-width: 100%;
+    min-width: 100%;
 }
+
 .cuadroTextoA{
     padding: 20px;
     margin-bottom: 20px;
