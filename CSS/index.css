@@ -1,13 +1,4 @@
 /*Info*/
-.contenedor-cuadros {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-.pcontenedor {
-    flex: 1;
-}
 
 #perfil{
     padding: 20px;
@@ -15,11 +6,7 @@
     margin-top: 100px;
     margin-left: 80px;
 }
-#logo{
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: -100px;
-}
+
 .contenedor-inferior {
     display: flex;
 }
