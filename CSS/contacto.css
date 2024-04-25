@@ -1,0 +1,90 @@
+.contenedorA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; 
+}
+
+.columnaF {
+    flex: 1; 
+}
+
+.columnaF form {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 600px;
+    margin-left: 100px;
+}
+
+.columnaF form label {
+    margin-bottom: 20px; 
+}
+
+.columnaF form input,
+.columnaF form textarea {
+    font-size: 20px;
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 2px solid #08554c; 
+    border-radius: 4px; 
+}
+
+.columnaF form button {
+    padding: 10px 20px;
+    background-color: #08554c; 
+    color: #cbcbcb; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.contenedorA img {
+    max-width: 100%;
+    margin-right: 100px;
+}
+
+.contenedorB {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 700px; 
+    margin-top: 50px;
+}
+
+.enlaces,
+.chat {
+    flex: 1;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+footer {
+    background-color: #08554c;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: #cbcbcb;
+    position: relative; 
+}
+
+button {
+    background-color: #08554c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+
+}
+button a {
+    text-decoration: none; 
+    color: #cbcbcb;
+}
+
+button:hover {
+    background-color: #ff5900;
+}
+
+
