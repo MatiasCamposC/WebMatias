@@ -1,5 +1,5 @@
 .main{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .contenedorA {
     display: flex;
@@ -14,33 +14,62 @@
     margin-left: 200px;
 }
 
-footer {
-    background-color: #08554c;
-    padding: 20px;
-    margin-top: 72px;
-    text-align: center;
-    color: #cbcbcb;
-    position: relative;
+.forms{
+    border: 4px solid ;
+    color: #08554c;
+    margin-bottom: 100px;
+    padding-top: 40px;
 }
+
+.enlacesC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.enlaces {
+    text-align: center;
+}
+
+.enlaces a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    background-color: #08554c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ff5900;
+}
+
 .btnE{
     background-color: #08554c;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-.btn {
-    background-color: #08554c;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
     margin-left: 200px;
-    transition: background-color 0.3s;
-
 }
-.btn:hover {
+
+.btnE:hover {
     background-color: #ff5900;
 }
+
+/*Footer*/
+
+footer {
+    background-color: #08554c;
+    padding: 20px;
+    margin-top: 55px;
+    text-align: center;
+    color: #cbcbcb;
+    position: relative;
+}
+
 
 
