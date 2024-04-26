@@ -46,23 +46,27 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="enlaces">
-                        <a href="https://www.linkedin.com/in/matias-campos-a5b160274/?originalSubdomain=cr" class="btn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/matias-campos-a5b160274/?originalSubdomain=cr" class="btn"><i class="bi bi-linkedin"></i> Ir a LinkedIn</a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="enlaces">
-                        <a href="https://github.com/MatiasCamposC" class="btn"><i class="bi bi-github"></i></a>
+                        <a href="https://github.com/MatiasCamposC" class="btn"><i class="bi bi-github"></i> Ir a GitHub</a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="enlaces">
-                        <a href="https://wa.me/50687035523"  class="btn"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://wa.me/50687035523"  class="btn"><i class="bi bi-whatsapp"></i> Contactar por WhatsApp</a>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="enlaces">
-                        <a href="../PDF/CV español.pdf" download class="btn"><i class="bi bi-person-square"></i></i></a>
-                    </div>
+                <div class="enlacesCV">
+                    <h2>Descargar CV</h2>
+                    <select id="cvDropdown" class="btnCV">
+                        <option value="" disabled selected>Selecciona un idioma</option>
+                        <option value="../PDF/CV español.pdf">Español</option>
+                        <option value="../PDF/Cv Ingles.pdf">English</option>
+                    </select>
+                    <button id="cvDownloadBtn" class="btnCV">Descargar</button>
                 </div>
             </div>
         </div>
@@ -71,8 +75,8 @@
     <footer>
         <h2>Construyendo soluciones innovadoras</h2>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../JS/contacto.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
 </body>
 </html>
 
